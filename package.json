@@ -1,0 +1,15 @@
+{
+    "name" : "serialwrapper",
+    "version" : "0.0.1",
+    "author" : "Zachary Henkel",
+    "description" : "Wrapper for serialport library",
+    "keywords" : ["Serial Port","COM Port","Serial"],
+    "repository" : {
+        "type" : "git",
+        "url"  : "https://github.com/zmhenkel/SerialWrapper.git"
+    },
+    "dependencies" : {
+        "serialport" : ">=1.0.8"
+    },
+    "main" : "./SerialWrapper"
+}
